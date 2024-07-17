@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e99c0f;
+    color: rgb(36, 143, 134);
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vw;
+    background-image: url("./images/dice2.png");
+    background-repeat:no-repeat;
+    background-position: right top;
+    background-size: 400px;
+}
+
+
+
+.main-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    font-family: Tahoma;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px #00000029;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    background-image: url("./images/dice1.png");
+    background-repeat:no-repeat;
+    background-position: left;
+    background-size: 300px;
+}
+
+.main-container h3{
+    margin-top: 50px;
+    font-size:90px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.main-container h5{
+    margin-top: 20px;
+    font-size:30px;
+    display: flex;
+    justify-content: center;-webkit-text-stroke-width: 1px;
+}
+
+.guessing-container{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    font-size: 120px;
+    justify-content: space-evenly;
+    
+}
+
+#answer{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 200;
+    -webkit-text-stroke-width: 0px;
+}
+
+.choose-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    
+}
+
+.choose-container button{
+    height: 150px;
+    width: 130px;
+    background-color:rgb(36, 143, 134);
+    border: none;
+    color: #e99c0f;
+    font-family: Tahoma;
+    font-size: 90px;
+    font-weight: bolder;
+    
+}
+
+.chek-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:50px;
+    
+}
+
+.chek-container button{
+    background-color: rgb(36, 143, 134);
+    border: none;
+    height: 50px;
+    width: 160px;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+    -webkit-text-stroke-width: 0px;
+}
+
